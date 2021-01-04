@@ -12,6 +12,7 @@ export class HeroWithHelm extends HeroGearDecorator {
   getGear(): string {
     return `${this.hero.getGear()}, helm 10 power`;
   }
+
   powerup(): number {
     return this.hero.powerup() + 10;
   }

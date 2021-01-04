@@ -9,4 +9,4 @@ Decorators provide a flexible alternative to subclassing for extending functiona
 * Clases should be open for extension, closed to modification
 
 
-** This definition was obtained from the book Head First Desing Patterns **
+**This definition was obtained from the book Head First Desing Patterns**

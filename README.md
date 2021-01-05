@@ -4,7 +4,7 @@ The Decorator Pattern attaches additional responsibilities to an object dynamica
 
 Decorators provide a flexible alternative to subclassing for extending functionality.
 
-### Desing priciples
+### Desing principles
 
 * Clases should be open for extension, closed to modification
 

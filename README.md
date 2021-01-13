@@ -24,7 +24,7 @@ The Decorator Pattern attaches additional responsibilities to an object dynamica
 
 ### The Hero-With-Gear Example
 
-We use a Hero abstract class to create our heroes, this class will be decorated with gear for our hero.
+We use a Hero abstract class to create our heroes, this class will be decorated with Gear-Decorator for our hero.
 
 ```ts
 export abstract class Hero {
@@ -48,7 +48,7 @@ export abstract class HeroGearDecorator extends Hero {
 }
 ```
 
-Our heroes can extend from our Hero abstract class. We initialize our gear description and provide a default power value.
+Our heroes can extend from our Hero abstract class. We initialize the gear description and provide a default  value for power.
 
 ```ts
 export class WarriorHero extends Hero {

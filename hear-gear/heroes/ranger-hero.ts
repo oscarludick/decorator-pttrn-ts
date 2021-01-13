@@ -1,4 +1,4 @@
-import { Hero } from "./hero";
+import { Hero } from "../hero";
 
 export class RangerHero extends Hero {
   constructor() {

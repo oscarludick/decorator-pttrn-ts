@@ -1,5 +1,5 @@
-import { Hero } from "../heroes/hero";
-import { HeroGearDecorator } from "./hero-gear-decorator";
+import { Hero } from "../hero";
+import { HeroGearDecorator } from "../hero-gear-decorator";
 
 export class HeroWithHelm extends HeroGearDecorator {
   hero: Hero;

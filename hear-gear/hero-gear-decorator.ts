@@ -1,4 +1,4 @@
-import { Hero } from "../heroes/hero";
+import { Hero } from "./hero";
 
 export abstract class HeroGearDecorator extends Hero {
   abstract hero: Hero;

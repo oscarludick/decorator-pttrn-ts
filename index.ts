@@ -1,10 +1,11 @@
-import { HeroWithHelm } from "./gear/hero-helm";
-import { HeroWithShield } from "./gear/hero-shield";
-import { HeroWithSword } from "./gear/hero-sword";
+import { HeroWithHelm } from "./hear-gear/gear/hero-helm";
+import { HeroWithShield } from "./hear-gear/gear/hero-shield";
+import { HeroWithSword } from "./hear-gear/gear/hero-sword";
 
-import { Hero } from "./heroes/hero";
-import { RangerHero } from "./heroes/ranger-hero";
-import { WarriorHero } from "./heroes/warrior-hero";
+import { RangerHero } from "./hear-gear/heroes/ranger-hero";
+import { WarriorHero } from "./hear-gear/heroes/warrior-hero";
+
+import { Hero } from "./hear-gear/hero";
 
 const hero1: Hero = new HeroWithSword(new HeroWithShield(new WarriorHero()));
 console.log(`${hero1.getGear()} , Total: ${hero1.powerup()}`);

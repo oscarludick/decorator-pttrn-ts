@@ -63,7 +63,7 @@ export class WarriorHero extends Hero {
 }
 ```
 
-Now we can wrap our Hero with a Shield Decotator, this class extends from our HeroGearDecorator. So our Hero becomes a HeroWithShield. The decorators adds its behavior after the Hero behavior.
+Now we can wrap our Hero with a Shield-Decotator, this class extends from our HeroGearDecorator. So our Hero becomes a HeroWithShield. The decorators adds its behavior after the Hero behavior.
 
 ```ts
 export class HeroWithShield extends HeroGearDecorator {

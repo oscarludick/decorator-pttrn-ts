@@ -38,7 +38,7 @@ export abstract class Hero {
 }
 ```
 
-Then we have a HeroGearDecorator or wrapper.
+Then we have a HeroGearDecorator or wrapper. We override the getGear method to attach additional behavior.
 
 ```ts
 export abstract class HeroGearDecorator extends Hero {
